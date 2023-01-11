@@ -1,0 +1,22 @@
+
+.wrapper {
+  background: var(--darkGrey);
+  padding: 0 20px;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--maxWidth);
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.logoImg{
+  width: 200px;
+
+  @media screen and (max-width: 500px) {
+    width: 150px;
+  }
+}
