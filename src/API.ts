@@ -1,5 +1,3 @@
-import { SEARCH_BASE_URL, POPULAR_BASE_URL, API_URL, API_KEY } from "./config";
-
 export type Movie = {
   backdrop_path: string;
   id: number;

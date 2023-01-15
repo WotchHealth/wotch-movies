@@ -4,6 +4,7 @@ import styles from "./Thumb.module.scss";
 type Props = {
   image: string;
   movieId?: number;
+  clickable?: boolean;
 };
 
 const Thumb = ({ image }: Props) => (

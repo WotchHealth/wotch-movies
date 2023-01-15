@@ -12,8 +12,6 @@ export const useMovieFetch = (movieId: string) => {
 
   useEffect(() => {
     const fetchMovie = async () => {
-      debugger;
-
       try {
         setLoading(true);
         setError(false);
@@ -50,8 +48,6 @@ export const useMovieFetch = (movieId: string) => {
 
   // Write to sessionStorage
   useEffect(() => {
-    debugger;
-
     sessionStorage.setItem(movieId.toString(), JSON.stringify(state));
   }, [movieId, state]);
 
